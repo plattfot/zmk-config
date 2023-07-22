@@ -121,9 +121,9 @@
 // |      | F10 | F6  | F5  | F4  |     |   |  <  |  >  |  "  |  ~  |  ?  |      |
 //                    |     |     |     |   |     |     |     |
             bindings = <
-   &trans &kp F12 &kp F9 &kp F8 &kp F7 &kp K_VOL_UP     &kp LBKT &kp RBKT &kp GRAVE &kp DLLR  &kp RA(SEMI) &trans
-   &trans &kp F11 &kp F3 &kp F2 &kp F1 &kp K_VOL_DOWN   &kp LBRC &kp RBRC &kp SQT   &kp COLON &kp CARET    &kp DEL
-   &trans &kp F10 &kp F6 &kp F5 &kp F4 &trans           &kp LT   &kp GT   &kp DQT   &kp TILDE &kp QMARK    &trans
+   &trans &kp F12 &kp F9 &kp F8 &kp F7 &kp K_VOL_UP   &kp LBKT &kp RBKT &kp GRAVE &kp DLLR  &kp RA(SEMI) &trans
+   &trans &kp F11 &kp F3 &kp F2 &kp F1 &kp K_VOL_DN   &kp LBRC &kp RBRC &kp SQT   &kp COLON &kp CARET    &kp DEL
+   &trans &kp F10 &kp F6 &kp F5 &kp F4 &trans         &kp LT   &kp GT   &kp DQT   &kp TILDE &kp QMARK    &trans
                        &trans  &trans  &trans      &trans  &trans   &trans
                 >;
         };
