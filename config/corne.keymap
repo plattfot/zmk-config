@@ -111,7 +111,7 @@
    &sl _NAV  &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &sl _NAV
    &kp TAB   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp BSPC
    &sk LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &sk RSHFT
-           &kp K_PP &sl _L_SYMFU &kp SPACE   &kp RET &sl _R_SIMFU &kp K20
+           &kp K_PP &sl _L_SYMFU &kp SPACE   &kp RET &sl _R_SIMFU &kp F20
                 >;
         };
         left_symfu {
