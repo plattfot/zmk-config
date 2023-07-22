@@ -160,8 +160,8 @@
 // |      |     |     |     |     |     |   |     | s-4 | s-5 | s-6 |     |      |
 //                    |     |     |     |   |     |     |     |
             bindings = <
-   &trans &trans &trans &kp right &kp up &kp left   &trans &trans   &trans &trans &trans &trans
-   &trans &trans &trans &trans    &trans &trans     &trans &kp down &trans &trans &trans &trans
+   &trans &trans &trans &kp RIGHT &kp UP &kp LEFT   &trans &trans   &trans &trans &trans &trans
+   &trans &trans &trans &trans    &trans &trans     &trans &kp DOWN &trans &trans &trans &trans
    &trans &trans &trans &trans    &trans &trans     &trans &trans   &trans &trans &trans &trans
                     &trans  &trans  &trans      &trans  &trans   &trans
                 >;
