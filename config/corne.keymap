@@ -23,82 +23,82 @@
 // |  24  | 25  | 26  | 27  | 28  | 29  |   | 30  | 31  | 32  | 33  | 34  |  35  |
 //                    +-----+-----+-----+   +-----+-----+-----+
 //                    | 36  | 37  | 38  |Esc| 39  | 40  | 41  |
-    /* combos { */
-    /*     compatible = "zmk,combos"; */
-    /*     combo_esc { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <38 39>; */
-    /*         bindings = <&kp ESC>; */
-    /*     }; */
-    /*     combo_caps_word { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <17 18>; */
-    /*         bindings = <&caps_word>; */
-    /*     }; */
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <38 39>;
+            bindings = <&kp ESC>;
+        };
+        combo_caps_word {
+            timeout-ms = <50>;
+            key-positions = <17 18>;
+            bindings = <&caps_word>;
+        };
 
-    /*     combo_left_altgr { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <1 13>; */
-    /*         bindings = <&sk RALT>; */
-    /*     }; */
-    /*     combo_left_super { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <2 14>; */
-    /*         bindings = <&sk LGUI>; */
-    /*     }; */
-    /*     combo_left_ctrl { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <3 15>; */
-    /*         bindings = <&sk LCTL>; */
-    /*     }; */
-    /*     combo_left_alt { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <4 16>; */
-    /*         bindings = <&sk LALT>; */
-    /*     }; */
-    /*     combo_clear { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <5 17>; */
-    /*         bindings = <&sys_reset>; */
-    /*     }; */
+        combo_left_altgr {
+            timeout-ms = <50>;
+            key-positions = <1 13>;
+            bindings = <&sk RALT>;
+        };
+        combo_left_super {
+            timeout-ms = <50>;
+            key-positions = <2 14>;
+            bindings = <&sk LGUI>;
+        };
+        combo_left_ctrl {
+            timeout-ms = <50>;
+            key-positions = <3 15>;
+            bindings = <&sk LCTL>;
+        };
+        combo_left_alt {
+            timeout-ms = <50>;
+            key-positions = <4 16>;
+            bindings = <&sk LALT>;
+        };
+        combo_clear {
+            timeout-ms = <50>;
+            key-positions = <5 17>;
+            bindings = <&sys_reset>;
+        };
 
-    /*     combo_ctrl_page_up { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <17 29>; */
-    /*         bindings = <&kp LC(PG_UP)>; */
-    /*     }; */
-    /*     combo_ctrl_page_down { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <18 30>; */
-    /*         bindings = <&kp LC(PG_DN)>; */
-    /*     }; */
+        combo_ctrl_page_up {
+            timeout-ms = <50>;
+            key-positions = <17 29>;
+            bindings = <&kp LC(PG_UP)>;
+        };
+        combo_ctrl_page_down {
+            timeout-ms = <50>;
+            key-positions = <18 30>;
+            bindings = <&kp LC(PG_DN)>;
+        };
 
-    /*     combo_right_short { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <6 18>; */
-    /*         bindings = <&sl _R_SHORT>; */
-    /*     }; */
-    /*     combo_right_alt { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <7 19>; */
-    /*         bindings = <&sk LALT>; */
-    /*     }; */
-    /*     combo_right_ctrl { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <8 20>; */
-    /*         bindings = <&sk RCTL>; */
-    /*     }; */
-    /*     combo_right_gui { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <9 21>; */
-    /*         bindings = <&sk RGUI>; */
-    /*     }; */
-    /*     combo_right_altgr { */
-    /*         timeout-ms = <50>; */
-    /*         key-positions = <10 22>; */
-    /*         bindings = <&sk RALT>; */
-    /*     }; */
-    /* }; */
+        combo_right_short {
+            timeout-ms = <50>;
+            key-positions = <6 18>;
+            bindings = <&sl _R_SHORT>;
+        };
+        combo_right_alt {
+            timeout-ms = <50>;
+            key-positions = <7 19>;
+            bindings = <&sk LALT>;
+        };
+        combo_right_ctrl {
+            timeout-ms = <50>;
+            key-positions = <8 20>;
+            bindings = <&sk RCTL>;
+        };
+        combo_right_gui {
+            timeout-ms = <50>;
+            key-positions = <9 21>;
+            bindings = <&sk RGUI>;
+        };
+        combo_right_altgr {
+            timeout-ms = <50>;
+            key-positions = <10 22>;
+            bindings = <&sk RALT>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
         default_layer {
