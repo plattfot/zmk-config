@@ -103,14 +103,14 @@
         compatible = "zmk,keymap";
         default_layer {
 // -----------------------------------------------------------------------------------------
-// | NAV  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | NAV  |
-// | TAB  |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | BKSP |
-// | LSHFT|  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | RSHFT|
+// | TAB  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP  |
+// | LSHFT|  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | RSHFT |
+// | NAV  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | NAV   |
 //                    | play| LSF | SPC |   | ENT | RSF  | Mute|
             bindings = <
-   &sl _NAV  &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &sl _NAV
-   &kp TAB   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp BSPC
-   &sk LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &sk RSHFT
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
+   &sk LSHFT &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &sk RSHFT
+   &sl _NAV  &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &sl _NAV
            &kp K_PP &sl _L_SYMFU &kp SPACE   &kp RET &sl _R_SYMFU &kp F20
                 >;
         };
