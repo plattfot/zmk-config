@@ -122,13 +122,13 @@
             timeout-ms = <50>;
             key-positions = <19 31>;
             bindings = <&kp BSPC>;
-            layers = <_BASE _R_SYMFU _R_SHORT _NAV>
+            layers = <_BASE _R_SYMFU _R_SHORT _NAV>;
         };
         combo_right_del {
             timeout-ms = <50>;
             key-positions = <19 31>;
             bindings = <&kp BSPC>;
-            layers = <_L_SYMFU>
+            layers = <_L_SYMFU>;
         };
         combo_right_nav {
             timeout-ms = <50>;
