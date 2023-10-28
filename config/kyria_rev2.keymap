@@ -20,8 +20,8 @@
 // +-------+-LGui+LAlt-+-LCtl-+-LSft-+-Clr--+                                           +-Short+-RSft--+-RCtl--+-RAlt-+-RGui--+------+
 // |  12   | 13  | 14  |  15  |  16  |  17  |               <-Caps Word ->              |  18  |  19   |  20   |  21  |   22  |  23  |
 // +-------+-----+-----+AltGr-+-Nav--+------+                                           +------+-Nav---+-AltGr-+------+-------+------+
-// |  24   | 25  | 26  |  27  |  28  |  29  |   30    |    32   |   |   33    |   34    |  35  |  36   |  37   |  38  |   39  |  40  |
-//                     |  41  |  42  |  43  |   44    |    45   |ESC|   46    |   47    |  48  |  49   |  50   |
+// |  24   | 25  | 26  |  27  |  28  |  29  |   30    |    31   |   |   32    |   33    |  34  |  35   |  36   |  37  |   38  |  39  |
+//                     |  40  |  41  |  42  |   43    |    44   |ESC|   45    |   46    |  47  |  48   |  49   |
     combos {
         compatible = "zmk,combos";
         combo_esc {
@@ -104,12 +104,12 @@
         // Right bottom row
         combo_right_nav {
             timeout-ms = <50>;
-            key-positions = <19 36>;
+            key-positions = <19 35>;
             bindings = <&sl _NAV>;
         };
         combo_right_altgr {
             timeout-ms = <50>;
-            key-positions = <20 37>;
+            key-positions = <20 36>;
             bindings = <&sk RALT>;
         };
     };
