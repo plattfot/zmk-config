@@ -104,12 +104,12 @@
         // Right bottom row
         combo_right_nav {
             timeout-ms = <50>;
-            key-positions = <19 31>;
+            key-positions = <19 36>;
             bindings = <&sl _NAV>;
         };
         combo_right_altgr {
             timeout-ms = <50>;
-            key-positions = <20 32>;
+            key-positions = <20 37>;
             bindings = <&sk RALT>;
         };
     };
