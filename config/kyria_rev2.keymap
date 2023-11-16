@@ -185,7 +185,7 @@
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
     &trans &trans &trans &kp RIGHT &kp UP  &kp LEFT                           &trans &trans &trans &trans &trans &trans
-    &trans &trans &trans &trans    &trans  &trans                             &trans &kp N  &trans &trans &trans &trans
+    &trans &trans &trans &trans    &trans  &trans                             &trans &kp DOWN &trans &trans &trans &trans
     &trans &trans &trans &trans    &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
                                    &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
