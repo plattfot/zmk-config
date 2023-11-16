@@ -114,6 +114,11 @@
         };
     };
 
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        triggers-per-rotation = <36>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
