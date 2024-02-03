@@ -171,14 +171,14 @@
         nav {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |       |      |      |  →   |  ↑   |  ←   |                                         |      |      |      |      |      |      |
-// |       |      |      |      |      |      |                                         |      |  ↓   |      |      |      |      |
+// |       |      |  ←   |  →   |  ↓   |      |                                         |      |  ↓   |      |      |      |      |
 // |       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
-    &trans &trans &trans &kp RIGHT &kp UP  &kp LEFT                           &trans &trans &trans &trans &trans &trans
-    &trans &trans &trans &trans    &trans  &trans                             &trans &kp DOWN &trans &trans &trans &trans
-    &trans &trans &trans &trans    &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                                   &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans   &kp RIGHT &kp UP   &kp LEFT                           &trans &trans &trans &trans &trans &trans
+    &trans &trans &kp LEFT &kp RIGHT &kp DOWN &trans                             &trans &kp DOWN &trans &trans &trans &trans
+    &trans &trans &trans   &trans    &trans   &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                                     &trans   &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC &inc_dec_kp C_BRI_DEC C_BRI_INC>;
         };
