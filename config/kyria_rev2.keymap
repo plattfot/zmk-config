@@ -96,18 +96,8 @@
             key-positions = <15 27>;
             bindings = <&sk RALT>;
         };
-        combo_left_nav {
-            timeout-ms = <50>;
-            key-positions = <16 28>;
-            bindings = <&sl _NAV>;
-        };
 
         // Right bottom row
-        combo_right_nav {
-            timeout-ms = <50>;
-            key-positions = <19 35>;
-            bindings = <&sl _NAV>;
-        };
         combo_right_altgr {
             timeout-ms = <50>;
             key-positions = <20 36>;
@@ -146,7 +136,7 @@
     &none   &trans  &kp F9 &kp F8 &kp F7 &kp F12                                  &kp LBKT &kp RBKT &kp GRAVE &kp DLLR  &kp RA(SEMI) &none
     &none   &kp F10 &kp F3 &kp F2 &kp F1 &kp F11                                  &kp LBRC &kp RBRC &kp SQT   &kp COLON &kp CARET    &none
     &none   &trans  &kp F6 &kp F5 &kp F4 &trans &none &none       &none   &none   &kp LT   &kp GT   &kp DQT   &kp TILDE &kp QMARK    &trans
-                           &trans &none &trans &trans &trans      &kp DEL &trans  &trans &none &trans
+                           &trans &none &trans &trans &trans      &kp DEL &trans  &sl _NAV &none &trans
             >;
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp PG_UP PG_DN>;
         };
@@ -160,7 +150,7 @@
     &none &kp RA(FSLH)  &kp AT    &kp STAR  &kp HASH  &kp PRCNT                                     &trans &kp N7 &kp N8 &kp N9 &trans &none 
     &none &kp PIPE      &kp UNDER &kp MINUS &kp LPAR  &kp RPAR                                      &trans &kp N1 &kp N2 &kp N3 &kp N0 &none
     &none &kp EXCL      &kp BSLH  &kp PLUS  &kp EQUAL &kp AMPS   &none  &none       &none   &none   &trans &kp N4 &kp N5 &kp N6 &trans &none
-                                  &trans    &none     &trans     &trans &trans      &trans  &trans  &trans &none &trans
+                                  &trans    &none     &sl _NAV   &trans &trans      &trans  &trans  &trans &none &trans
             >;
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp PG_UP PG_DN>;
         };
